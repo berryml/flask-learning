@@ -1,6 +1,7 @@
 # flask-learning
 
 ## Structure
+
 |-- README.md
 |-- LICENSE
 |-- tutorial_1
