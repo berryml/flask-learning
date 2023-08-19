@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
@@ -27,6 +27,16 @@ def bye():
         ]
     }
     return jsonify(me)
+
+@app.route('/add_2_numbers', methods=["POST"]) # this fxn only supports POST
+def add_numbers():
+    # get data from POSTed data
+    data = request.get_json()
+    x = data['x']
+    y = data['y']
+    answer = x + y
+    returnAns = {'answer': answer}
+    return jsonify(returnAns)
     
 if __name__ == '__main__':
-    app.run(host='localhost', debug=True)
+    app.run(host='127.0.0.1', debug=True)
