@@ -4,6 +4,7 @@ flask-learning
 
 Structure
 =========
+
 ``
 |-- README.md
 |-- LICENSE
