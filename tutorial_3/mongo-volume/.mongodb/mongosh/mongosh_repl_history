@@ -1,0 +1,25 @@
+show dbs
+quit()
+use db
+db.createUser( { user: "myUserAdmin", pwd: passwordPrompt(), /* or cleartext password*/ roles: [ { role: "userAdminAnyDatabase", db: "admin" }, { role: "readWriteAnyDatabase", db: "admin" }] } )
+use admin
+db.stats()
+show databases
+db.stats()
+use firstdb
+db.stats()
+use admin
+    "admin" -u "myUserAdmin" -p
+mongosh --port 27017  --authenticationDatabase \
+db.stats()
+db.stats
+mongod
+db.getMongo();
+db.getMongo()
+getMongo()
+getMongo
+db.stats()
+db.help
+db.helptats()
+db.help
+db.help
