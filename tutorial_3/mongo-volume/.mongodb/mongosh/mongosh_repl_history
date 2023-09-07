@@ -1,3 +1,64 @@
+db.auth('admin', 'password')
+use mydb
+db.stats()
+use mydb
+show users
+use firstdb
+show users
+use admin
+show users
+db.users()
+users
+db.auth("admin", "password")
+-u admin -p password
+use admin
+mongo -u "admin" --authenticationDatabase admin
+show users
+passwordPrompt()
+show logs
+show users
+show profile
+use firstdb
+user firstdb
+show users
+help
+listdbs
+db.stats()
+dbs
+list dbs
+exit
+use test
+use firstdb
+use admin
+show dbs
+dbs
+db.auth("admin", passwordPrompt())
+use admin
+db.stats()
+db.help()
+db.stats()
+-u
+mongosh
+use mydb
+-u admin
+mongo -u admin --authenticationDatabase firstdb
+show databases
+history
+show dbs
+use admin
+show dbs
+use mydb
+show dbs
+dbs
+exit
+exi
+show dbs
+use mydb
+wq
+db.stats()
+show dbs
+use mydb
+db
 show dbs
 quit()
 use db
@@ -22,4 +83,7 @@ db.stats()
 db.help
 db.helptats()
 db.help
+db.helpb.help()
 db.help
+db.helpb.helphelp
+db.helpb.help
